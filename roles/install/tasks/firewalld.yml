@@ -48,7 +48,6 @@
     - 7777/udp
     - 20560/udp
     - 27015/udp
-    - 8080/tcp
 
 - include_role:
     name: noobient.logrotate

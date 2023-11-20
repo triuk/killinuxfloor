@@ -1,3 +1,9 @@
+```
+sudo apt install -y git
+git clone https://github.com/triuk/killinuxfloor.git
+cd killinuxfloor
+sudo ./install.sh
+```
 ![](img/logo-small.png)
 
 | Platform | Support | Status |

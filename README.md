@@ -1,8 +1,19 @@
 ```
-sudo apt install -y git apt-utils
+sudo apt install -y git apt-utils mc
 git clone https://github.com/triuk/killinuxfloor.git
 cd killinuxfloor
 sudo ./install.sh
+```
+```
+sudo firewall-cmd --add-port=8080/tcp --permanent
+```
+```
+klf stop && klf update && klf config && klf start
+
+?Difficulty=3?GameLength=1?Mutator=DamageDisplay.DmgMut,KFMutator.KFMutator_MaxPlayersV2?MaxPlayers=20?MaxMonsters=360
+
+Game Difficulty: 0 = Normal, 1 = Hard, 2 = Suicidal, 3 = Hell on Earth Game
+Length: 0 = Short, 1 = Medium, 2 = Long
 ```
 ![](img/logo-small.png)
 

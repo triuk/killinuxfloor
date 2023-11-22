@@ -1,5 +1,5 @@
 ```
-sudo apt install -y git
+sudo apt install -y git apt-utils
 git clone https://github.com/triuk/killinuxfloor.git
 cd killinuxfloor
 sudo ./install.sh
